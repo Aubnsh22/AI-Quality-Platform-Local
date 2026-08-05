@@ -5,3 +5,4 @@ export async function retryRequest(
       return request();
     }
   }
+export const maxAttempts = 2;
